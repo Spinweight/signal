@@ -1,0 +1,11 @@
+# LED Matrix Animation Library Requirements
+# 
+# Basic library uses only Python standard library (no external dependencies required)
+# Optional hardware integration dependencies listed below:
+
+# For Raspberry Pi RGB LED Matrix (optional)
+# rpi-rgb-led-matrix==1.7.0
+
+# For development/testing (optional)
+# pytest==7.4.0
+# pillow==10.0.0  # For image-based matrix output
