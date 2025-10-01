@@ -1,0 +1,22 @@
+# Build artifacts
+*.hex
+*.elf
+*.bin
+
+# Arduino IDE temporary files
+*.build/
+*.cache/
+
+# PlatformIO
+.pio/
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*~
+*.tmp
+*.bak
+*.swp

@@ -1,0 +1,35 @@
+Arduino Libraries Required for Van LED Lighting System
+======================================================
+
+Install these libraries through Arduino IDE Library Manager:
+(Sketch → Include Library → Manage Libraries)
+
+1. Adafruit NeoPixel
+   - Version: 1.10.0 or higher
+   - By: Adafruit
+   - Description: Library for controlling WS2812/NeoPixel LEDs
+   - Install command: Search "Adafruit NeoPixel" in Library Manager
+
+Board Support:
+==============
+
+ESP32 Board Support Package
+   - Version: 2.0.0 or higher
+   - By: Espressif Systems
+   - Add URL to Board Manager:
+     https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
+   - Install: Tools → Board → Boards Manager, search "esp32"
+
+Alternative Installation Methods:
+=================================
+
+Using Arduino CLI:
+   arduino-cli lib install "Adafruit NeoPixel"
+   arduino-cli core install esp32:esp32
+
+Using PlatformIO:
+   lib_deps = 
+       adafruit/Adafruit NeoPixel @ ^1.10.0
+   
+   platform = espressif32
+   board = dfrobot_firebeetle2_esp32e
